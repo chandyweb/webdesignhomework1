@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homeworks 1</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: fantasy;
+        }
+        body {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        .header {
+            flex: 2;
+            background-color: rgb(162, 162, 247);
+        }
+        .nav {
+            width: 80%;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+        }
+        .text nav {
+            list-style: none;
+            display: flex;
+            margin-top: 15px;
+
+        }
+        .text nav li a {
+            text-decoration: none;
+            padding: 0px 50px;
+            align-items: center;
+        }
+        .main {
+            flex: 4;
+        }
+        .header h1 {
+            width: 100%;
+            height: 50vh;
+            background-image: url(https://prod-printler-front-as.azurewebsites.net/media/photo/159673.jpg?mode=crop&width=1024&height=727&rnd=0.0.1);
+            background-position: center;
+            background-size: cover;
+            text-align: center;
+            font-size: 200px;
+            color: orange;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5),2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        .contant {
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .card1 , .card2 , .card3 {
+            width: 30%;
+            height: 330px;
+            background-color: rgb(0, 45, 170);
+            box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+            margin-top: 30px;
+            border-radius: 30px;
+        }
+        img {
+            width: 100%;
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            border-radius: 30px;
+        }
+        p{
+            color: white;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            height: 20px;
+            margin-top: 10px;
+        }
+        button {
+            width: 100px;
+            height: 20px;
+            border-radius: 10px;
+            margin-top: 60px;
+            margin-left: 35%;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="logo" style="width: 50px;height: 50px;background-image: url(https://img.freepik.com/free-vector/car-service-logo-design_23-2149750702.jpg?size=338&ext=jpg&ga=GA1.1.44546679.1716681600&semt=ais_user);background-position: center;background-size: cover;border-radius: 50%;"></div>
+            <div class="text">
+                <nav>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Other</a></li>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">Price</a></li>
+                </nav>
+            </div>
+        </nav>
+        <h1>Banner</h1>
+    </header>
+    <main class="main">
+        <contant class="contant">
+            <div class="card1">
+                <img src="https://s3-prod-europe.autonews.com/s3fs-public/Lamborghini%20Huracan%20STO%20web.jpg" alt="">
+                <p>Lamborghini had its most profitable year ever during the coronavirus pandemic
+                    Supercar maker delivered 7,430 cars worldwide in 2020</p>
+                <button>2000000 $</button>
+            </div>
+            <div class="card2">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRArW-IwTQPNu3eezzNoJFzElmyWXWozBh2uA&s" alt="">
+                <p>Automobili Lamborghini celebrates its iconic V10 super sports car with a limited edition of ten units equipped with an exclusive performance enhancement package
+                </p>
+                <button>1200000 $</button>
+            </div>
+            <div class="card3">
+                <img src="https://i.ebayimg.com/images/g/nWoAAOSwvLteb0CV/s-l1200.jpg" alt="">
+                <p>LAMBORGHINI AVENTADOR TRON STYLE SUPER CAR SPORTS HYPER PRINT PREMIUM POSTER</p>
+                <button>3000000 $</button>
+            </div>
+        </contant>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3908.7097097833075!2d104.90751227505366!3d11.572655788628717!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310951b341701ceb%3A0x4191882e1ac700c1!2sLamborghini%20Phnom%20Penh!5e0!3m2!1sen!2skh!4v1724751587998!5m2!1sen!2skh" width="1300" height="450" style="border:0; margin-top: 30px;box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </main>
+</body>
+</html>
